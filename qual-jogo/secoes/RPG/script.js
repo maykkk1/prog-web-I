@@ -14,56 +14,56 @@ const listaDeResultados = [
 const pergunta1 = document.getElementsByName('pergunta1')
 pergunta1.forEach((e) => {
     e.addEventListener("click", () => {
-        mostrarResposta(1, 0)
+        mostrarResposta(1, 3)
     })
 })
 
 const pergunta2 = document.getElementsByName('pergunta2')
 pergunta2.forEach((e) => {
     e.addEventListener("click", () => {
-        mostrarResposta(2, 2)
+        mostrarResposta(2, 3)
     })
 })
 
 const pergunta3 = document.getElementsByName('pergunta3')
 pergunta3.forEach((e) => {
     e.addEventListener("click", () => {
-        mostrarResposta(3, 2)
+        mostrarResposta(3, 0)
     })
 })
 
 const pergunta4 = document.getElementsByName('pergunta4')
 pergunta4.forEach((e) => {
     e.addEventListener("click", () => {
-        mostrarResposta(4, 3)
+        mostrarResposta(4, 2)
     })
 })
 
 const pergunta5 = document.getElementsByName('pergunta5')
 pergunta5.forEach((e) => {
     e.addEventListener("click", () => {
-        mostrarResposta(5, 2)
+        mostrarResposta(5, 0)
     })
 })
 
 const pergunta6 = document.getElementsByName('pergunta6')
 pergunta6.forEach((e) => {
     e.addEventListener("click", () => {
-        mostrarResposta(6, 0)
+        mostrarResposta(6, 2)
     })
 })
 
 const pergunta7 = document.getElementsByName('pergunta7')
 pergunta7.forEach((e) => {
     e.addEventListener("click", () => {
-        mostrarResposta(7, 3)
+        mostrarResposta(7, 0)
     })
 })
 
 const pergunta8 = document.getElementsByName('pergunta8')
 pergunta8.forEach((e) => {
     e.addEventListener("click", () => {
-        mostrarResposta(8, 2)
+        mostrarResposta(8, 1)
     })
 })
 
@@ -77,7 +77,7 @@ pergunta9.forEach((e) => {
 const pergunta10 = document.getElementsByName('pergunta10')
 pergunta10.forEach((e) => {
     e.addEventListener("click", () => {
-        mostrarResposta(10, 3)
+        mostrarResposta(10, 2)
     })
 })
 
@@ -143,14 +143,14 @@ const gerarResultadoFinal = () => {
 }
 
 const mostrarRespostasCertas = () => {
-    const resposta1 = document.querySelectorAll('input[name="pergunta1"] ~ label')[0].style.color = 'green'
-    const resposta2 = document.querySelectorAll('input[name="pergunta2"] ~ label')[2].style.color = 'green'
-    const resposta3 = document.querySelectorAll('input[name="pergunta3"] ~ label')[2].style.color = 'green'
-    const resposta4 = document.querySelectorAll('input[name="pergunta4"] ~ label')[3].style.color = 'green'
-    const resposta5 = document.querySelectorAll('input[name="pergunta5"] ~ label')[2].style.color = 'green'
-    const resposta6 = document.querySelectorAll('input[name="pergunta6"] ~ label')[0].style.color = 'green'
-    const resposta7 = document.querySelectorAll('input[name="pergunta7"] ~ label')[3].style.color = 'green'
-    const resposta8 = document.querySelectorAll('input[name="pergunta8"] ~ label')[2].style.color = 'green'
+    const resposta1 = document.querySelectorAll('input[name="pergunta1"] ~ label')[3].style.color = 'green'
+    const resposta2 = document.querySelectorAll('input[name="pergunta2"] ~ label')[3].style.color = 'green'
+    const resposta3 = document.querySelectorAll('input[name="pergunta3"] ~ label')[0].style.color = 'green'
+    const resposta4 = document.querySelectorAll('input[name="pergunta4"] ~ label')[2].style.color = 'green'
+    const resposta5 = document.querySelectorAll('input[name="pergunta5"] ~ label')[0].style.color = 'green'
+    const resposta6 = document.querySelectorAll('input[name="pergunta6"] ~ label')[2].style.color = 'green'
+    const resposta7 = document.querySelectorAll('input[name="pergunta7"] ~ label')[0].style.color = 'green'
+    const resposta8 = document.querySelectorAll('input[name="pergunta8"] ~ label')[1].style.color = 'green'
     const resposta9 = document.querySelectorAll('input[name="pergunta9"] ~ label')[1].style.color = 'green'
-    const resposta10 = document.querySelectorAll('input[name="pergunta10"] ~ label')[3].style.color = 'green'
+    const resposta10 = document.querySelectorAll('input[name="pergunta10"] ~ label')[2].style.color = 'green'
 }
