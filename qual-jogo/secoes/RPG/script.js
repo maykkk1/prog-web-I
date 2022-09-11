@@ -126,7 +126,7 @@ const gerarResultadoFinal = () => {
     });
     if (numeroDeAcertos > 7) {
         dadosResultadosFinal.innerHTML = `Você acertou <strong> ${numeroDeAcertos} </strong> das 10 perguntas`
-        textoResultadoFinal.innerHTML = "Parabéns! Você pode se considerar um verdadeiro gamer raiz."
+        textoResultadoFinal.innerHTML = "Parabéns! Você é um nerd de respeito."
         resultadoFinal.style.display = "flex"
         mostrarRespostasCertas()
     } else if (numeroDeAcertos > 4) {
@@ -136,7 +136,7 @@ const gerarResultadoFinal = () => {
         mostrarRespostasCertas()
     } else {
         dadosResultadosFinal.innerHTML = `Você acertou <strong> ${numeroDeAcertos} </strong> das 10 perguntas`
-        textoResultadoFinal.innerHTML = "Talvez esteja na hora de você buscar conhecer um pouco mais sobre a história dos video games."
+        textoResultadoFinal.innerHTML = "Talvez esteja na hora de você buscar conhecer um pouco desse fascinante mundo dos rpgs."
         resultadoFinal.style.display = "flex"
         mostrarRespostasCertas()
     }
