@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./videos.css">
+    <title> Linkin Park - Tribute </title>
+</head>
+
+<body>
+    <header>
+        <div class="img-wrapper">
+            <img src="./images/linkin-park.jpeg" alt="">
+        </div>
+        <nav id="nav">
+            <div class="logo">
+                <img src="./images/Linkin_park_logo_PNG8.png" alt="">
+            </div>
+            <ul class="navbar">
+                <li><a class="nav-item" href="../../index.html"> Home </a></li>
+                <li><a class="nav-item" href="#"> Vídeos </a></li>
+                <li><a class="nav-item" href="../albuns/albuns.html"> Álbuns </a></li>
+            </ul>
+        </nav>
+        <div id="mobile-nav">
+            <div class="logo">
+                <img src="./images/Linkin_park_logo_PNG8.png" alt="">
+            </div>
+            <ul class="navbar">
+                <li><a class="nav-item" href="../../index.html"> Home </a></li>
+                <li><a class="nav-item" href="#"> Vídeos </a></li>
+                <li><a class="nav-item" href="../albuns/albuns.html"> Álbuns </a></li>
+            </ul>
+        </div>
+        <div class="menu-hamburguer">
+            <input type="checkbox" id="checkbox-menu">
+              <label onclick="showMenu()" for="checkbox-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+          </div>
+    </header>
+    <main>
+        <section class="videos">
+            <h2> Vídeos </h2>
+            <ul class="videos-container">
+                <li>
+                    <video src="./videosSRC/video1.mp4" type="video/mp4" controls></video>
+                </li>
+                <li>
+                    <video src="./videosSRC/video2.mp4" type="video/mp4" controls></video>
+                </li>
+                <li>
+                    <video src="./videosSRC/video3.mp4" type="video/mp4" controls></video>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/619f70976e.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

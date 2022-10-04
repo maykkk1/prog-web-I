@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    padding: 0 200px;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: .2px .2px 105px rgba(0, 0, 0, 0.078);
+    z-index: 100;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 17px;
+}
+
+nav ul a {
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    color: #333333;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    zoom: 1;
+    letter-spacing: 1px;
+    white-space: pre-line;
+}
+
+nav ul a:hover {
+    color: #ff6900;
+}
+
+.conteudo {
+    margin-top: 75px;
+    padding: 0 200px;
+    display: flex;
+}
+
+.conteudo div {
+    width: 50%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.form h1 {
+    font-size: 25px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    padding: 10px 0;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form form label {
+    color: #777777;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    line-height: 1.7;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.form form input {
+    padding: 10px;
+    width: 70%;
+    max-width: 100%;
+    border: 0px;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 22px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 12%) inset;
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12) inset;
+    -webkit-box-shadow: 0 1px 2px rgb(0 0 0 / 12%) inset;
+    -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12) inset;
+    transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #fff;
+    box-sizing: border-box;
+    color: #000000;
+}
+
+.form form textarea {
+    padding: 10px;
+    max-width: 100%;
+    width: 70%;
+    border: 0px;
+    resize: vertical ;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 22px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 12%) inset;
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12) inset;
+    -webkit-box-shadow: 0 1px 2px rgb(0 0 0 / 12%) inset;
+    -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12) inset;
+    transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #fff;
+    box-sizing: border-box;
+    color: #000000;
+}
+
+.form form button {
+    cursor: pointer;
+    background: #ff6600;
+    width: 100px;
+    border: none;
+    display: inline-block;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+    padding: 15px 23px 15px 23px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    box-shadow: 0 -1px 0 0 rgb(0 0 0 / 10%) inset;
+    margin: 15px 0;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.endereco {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.endereco p {
+    color: #7A7A7A;
+    font-family: "Roboto", Sans-serif;
+    margin: 0 0 15px;
+    font-size: 14px;
+}
+
+.endereco figure {
+    width: 100%;
+}
+
+.endereco figure img {
+    width: 100%;
+}
+
+.orcamento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.orcamento button{
+    font-family: "Helvetica", Sans-serif;
+    font-size: 19px;
+    text-transform: uppercase;
+    background-color: #f7733b;
+    padding: 20px 40px;
+    border: none;
+    transition: all .3s;
+    cursor: pointer;
+    color: white;
+}
+
+footer {
+    height: 100px;
+    position: relative;
+    text-align: center;
+    padding: 35px 0px;
+    background: #222222;
+    font-weight: 500;
+    color: #bbbbbb;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}

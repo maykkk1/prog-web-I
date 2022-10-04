@@ -1,0 +1,380 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://vejasp.abril.com.br/wp-content/uploads/2021/06/capa-predios-plano-diretor.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    padding: 0 200px;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    z-index: 100;
+    box-shadow: .2px .2px 105px rgba(0, 0, 0, 0.078);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 17px;
+}
+
+nav ul a {
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    color: #333333;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    zoom: 1;
+    letter-spacing: 1px;
+    white-space: pre-line;
+}
+
+nav ul a:hover {
+    color: #ff6900;
+}
+
+.img-wrapper {
+    width: 100vw;
+    height: 70vh;
+    margin-top: 75px;
+}
+
+.img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main {
+    width: 100vw;
+}
+
+.orcamento {
+    width: 100%;
+    height: 125px;
+    padding: 0 200px;
+    background-color: #003e53;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.orcamento p {
+    color: #ffffff;
+    font-family: "Roboto", Sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.orcamento button {
+    font-family: "Helvetica", Sans-serif;
+    font-size: 19px;
+    text-transform: uppercase;
+    background-color: #f7733b;
+    padding: 20px 40px;
+    border: none;
+    transition: all .3s;
+    cursor: pointer;
+    color: white;
+}
+
+.orcamento button:hover {
+    background-color: #818a91;
+}
+
+.profissionais {
+    padding: 100px 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.profissionais div {
+    width: 50%;
+}
+
+.profissionais-content {
+    padding-right: 70px;
+}
+
+.profissionais-content h2 {
+    color: #000000;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 33px;
+    font-weight: bold;
+    margin-bottom: 33px;
+}
+
+.profissionais-content p {
+    margin-bottom: 0.9375rem;
+    font-family: "Roboto", Sans-serif;
+    font-size: 14px;
+    color: #7A7A7A;
+}
+
+
+.profissonais-img {
+    background-color: white;
+    padding: 15px;
+    box-shadow: .5px .5px 15px rgba(0, 0, 0, 0.328);
+}
+
+.profissonais-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.atendimento {
+    background-color: #ffffff;
+    padding: 100px 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.atendimento div {
+    width: 50%;
+}
+
+.atendimento-img {
+    background-color: white;
+    padding: 25px 15px;
+    box-shadow: .5px .5px 15px rgba(0, 0, 0, 0.328);
+}
+
+.atendimento-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.atendimento-content {
+    padding-left: 70px;
+}
+
+.atendimento-content h2 {
+    color: #000000;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 33px;
+    font-weight: bold;
+    margin-bottom: 33px;
+}
+
+.atendimento-content p {
+    margin-bottom: 0.9375rem;
+    font-family: "Roboto", Sans-serif;
+    font-size: 14px;
+    color: #7A7A7A;
+}
+
+hr {
+    z-index: 5;
+    position: absolute;
+    width: calc(100% - 400px);
+    margin: 0 200px;
+}
+
+.clientes {
+    padding: 100px 200px;
+    background-color: #ffffff;
+}
+
+.clientes h2 {
+    color: #000000;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 33px;
+    font-weight: bold;
+    margin-bottom: 33px;
+}
+
+.clientes-container {
+    width: 100%;
+    padding: 0 70px;
+}
+
+.clientes-container img {
+    width: 100%;
+}
+
+.servicos {
+    background-color: #ffffff;
+    padding: 0 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.servicos h2 {
+    color: #000000;
+    font-family: "Roboto", Sans-serif;
+    font-size: 33px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-style: oblique;
+}
+
+.lista-servicos {
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.lista-servicos li ul {
+    list-style: none;
+}
+
+.lista-servicos li ul li{
+    margin: 5px;
+    font-family: "Roboto", Sans-serif;
+}
+
+.servicos-texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    background-color: #d2e9e1;
+}
+
+.servicos-texto p {
+    font-family: "Roboto", Sans-serif;
+    width: 733px;
+    height: 90px;
+    color: #7A7A7A;
+    font-size: 14px;
+}
+
+.solicitar-orc {
+    height: calc(100vh - 75px);
+    background-color: #00000052;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.solicitar-orc h2 {
+    color: #fd5e29;
+    font-family: "Raleway", Sans-serif;
+    font-size: 59px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 660px;
+}
+
+.solicitar-orc p{
+    margin-top: 100px;
+    font-family: "Roboto", Sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+    width: 660px;
+    text-align: center;
+}
+
+.contato {
+    background-color: white;
+    padding: 100px 200px;
+    display: flex;
+}
+
+.contato-coluna {
+    width: 33%;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contato-coluna i {
+    color: #fd5e29;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.contato-coluna h3 {
+    font-family: "Roboto", Sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.4em;
+    letter-spacing: 1.2px;
+    color: #777777;
+    margin-bottom: 15px;
+}
+
+.contato-coluna p {
+    color: #b5b5b5;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.5em;
+    margin-bottom: 15px;
+}
+
+.contato-coluna span {
+    color: #fd5e29;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.contato-coluna:nth-child(1) {
+    border-right: 1px solid #b5b5b593;
+}
+
+.contato-coluna:nth-child(3) {
+    border-left: 1px solid #b5b5b593;
+}
+
+.social-links {
+    height: 218px;
+    width: 100%;
+    background-color: #02122d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-links i {
+    color: #f7733b;
+    background-color: #3b4f68;
+    width: 38px;
+    height: 38px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+footer {
+    height: 100px;
+    position: relative;
+    text-align: center;
+    padding: 35px 0px;
+    background: #222222;
+    font-weight: 500;
+    color: #bbbbbb;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}

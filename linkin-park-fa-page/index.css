@@ -46,6 +46,10 @@ nav {
     transition: 400ms;
 }
 
+#mobile-nav {
+    display: none;
+}
+
 .logo img {
     height: 130px;
 }
@@ -236,7 +240,7 @@ nav {
         align-items: center;
         padding: 0;
         border-bottom: 5px solid #24695d;
-        height: max-content;
+        height: 0;
         overflow: hidden;
         transition: 400ms;
     }

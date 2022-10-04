@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+body {
+    background-color: #0000FF;
+    background-image: url("https://i.pinimg.com/originals/25/a2/bf/25a2bf5200e0bfae42e4714d792445d0.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 2000px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+header {
+    height: 200px;
+    background-image: url("https://imagensemoldes.com.br/wp-content/uploads/2020/06/Imagem-Bras%C3%A3o-Hogwarts-Harry-Potter-PNG.png");
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, .3);
+    background-position: center;
+    color: white;
+}
+
+nav {
+    background-color: gray;
+    width: 100vw;
+    display: block;
+    color: white;
+    padding: 30px 0;
+}
+
+nav ul {
+    width: max-content;
+    margin: 0 auto;
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    padding: 50px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav li a.ativado{
+    background-color: hotpink;
+    color: lightblue;
+}
+
+nav li a:hover:not(.ativado) {
+    background-color: brown;
+    color: black;
+}
+
+section {
+    background-color: hotpink;
+    margin-right: 700px;
+}
+
+article {
+    margin-right: 700px;
+    background-color: green;
+    opacity: .5;
+}
+
+footer {
+    margin-right: 700px;
+    background-color: yellow;
+}

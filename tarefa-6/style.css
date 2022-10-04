@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e4fcf9;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    font-family: Vollkorn, serif;
+}
+
+
+.nav-container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: 110px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container figure img {
+    width: 160px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    margin-top: 27px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    color: #222222;
+    padding: 17px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+nav ul li a:hover {
+    color: #5e87a7;
+}
+
+.banner-wrapper {
+    overflow: hidden;
+    width: 100vw;
+}
+
+.banner-wrapper img {
+    width: 100%;
+}
+
+.colegio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+    text-align: center;
+}
+
+.colegio h2 {
+    margin-top: 47px;
+    margin-bottom: 10px;
+    color: #272f34;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.tracinho {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 45px;
+    height: 1px;
+    margin-bottom: 11px;
+    margin-left: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #000;
+    color: #000;
+    text-align: center;
+}
+
+.img-wrapper-colegio img {
+    margin: 36px auto 27px;
+    box-shadow: 1px 1px 20px 0 #000;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.colegio p {
+    width: 80%;
+    margin: 15px auto 31px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.cards {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 20px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+}
+
+.card {
+    width: 400px;
+    height: 500px;
+    margin-right: 10px;
+    margin-left: 20px;
+    padding: 20px 30px 100px;
+    border-radius: 13px;
+    background-color: rgba(172, 230, 246, 0.27);
+    -webkit-transition: background-color 525ms ease;
+    transition: background-color 525ms ease;
+}
+
+.card img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    border-radius: 12px;
+}
+
+.card h3 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.missao-valores {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 52px;
+    padding-bottom: 25px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #ace6f6;
+}
+
+.missao-container {
+    margin-right: auto;
+    display: flex;
+    margin-left: auto;
+    max-width: 940px;
+}
+
+.missao-valores article {
+    width: 300px;
+    height: 400px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: #e4fcf9;
+    -webkit-transition: background-color 1000ms cubic-bezier(.23, 1, .32, 1);
+    transition: background-color 1000ms cubic-bezier(.23, 1, .32, 1);
+    cursor: pointer;
+}
+
+
