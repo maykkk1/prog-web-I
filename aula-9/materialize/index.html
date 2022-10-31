@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./materialize/css/materialize.css">
+    <link rel="stylesheet" href="./materialize/css/custom.css">
+    <title> Responsivo </title>
+</head>
+<body>
+    <header class="card-panel white-text">
+        Aqui é o topo
+    </header>
+    <nav>
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">Logo</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="sass.html">Sass</a></li>
+            <li><a href="badges.html">Components</a></li>
+            <li><a href="collapsible.html">Javascript</a></li>
+            <li><a href="mobile.html">Mobile</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+    <section class="row">
+        <h1 class="col s12 hide-on-med-and-down">Conteudo da página</h1>
+        <article class="col s12 m6 l3 purple lighten-3 valign-wrapper"><p class="center-align">Bloco 1</p></article>
+        <article class="col s12 m6 l3 red lighten-3 valign-wrapper"><p class="center-align">Bloco 2</p></article>
+        <article class="col s12 m6 l3 indigo lighten-3 valign-wrapper"><p class="center-align">Bloco 3</p></article>
+        <article class="col s12 m6 l3 blue lighten-3 valign-wrapper"><p class="center-align">Bloco 4</p></article>
+    </section>
+    <footer>
+
+        Aqui é o roda pé
+    </footer>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems);
+  });
+    </script>
+    <script src="./materialize/js/materialize.js"></script>
+</body>
+</html>

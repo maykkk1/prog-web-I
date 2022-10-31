@@ -1,0 +1,11 @@
+header {
+    background-color: black !important;
+}
+
+section>article {
+    height: 200px;
+}
+
+section>article>p {
+    width: 100%;
+}
