@@ -1,0 +1,15 @@
+.container {
+    width: 570px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.container div {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+     cursor: pointer;
+}

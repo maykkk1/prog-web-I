@@ -1,0 +1,15 @@
+header {
+    background-color: #012810;
+}
+
+header figure img {
+    width: 100%;
+}
+
+.nav-item a {
+    color: white;
+    padding: 32px 34px;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 14px;
+}
